@@ -1,0 +1,158 @@
+
+/* begin styles for RSS Feed */
+
+
+
+.rss-box {
+
+	 margin: 2px;
+
+	 padding: 2px 2px;
+
+	 background-color: none;
+
+	 border-color: none;
+
+}
+
+
+
+.rss-title, rss_title a {
+
+	font-family: Tahoma;
+
+	font-size: 8px;
+
+	font-weight:normal;
+
+	margin: 3px 0;
+
+	padding: 0;
+
+    color: #000000;
+
+	letter-spacing: 0px;
+
+}
+
+
+
+.rss-items {
+
+  
+
+}
+
+
+
+.rss-item  {
+
+  font-family: Tahoma;
+
+  font-size:12px;
+
+  color: #000000;
+
+  font-weight : normal; 
+
+  margin: 8px 0;
+
+}
+
+
+
+.rss-item a:link, .rss-item a:visited, .rss-item a:active {
+
+	text-decoration : none;
+
+	color: #0000000;
+
+	}
+
+
+
+.rss-item a:hover { 
+
+    color: black;
+
+    text-decoration: underline;
+
+ 
+
+	}
+
+	
+
+.rss-date {
+
+	font-size:12px;
+
+        margin: 0;
+
+	font-weight : normal;
+
+	color: #ffffff;
+
+	} 
+
+/* buttons modeled from http://www.wellstyled.com/css-inline-buttons.html */
+
+
+
+.pod-play {
+
+   _width:12em;
+
+   margin: 0 0.2em; padding: 0.1em 0; _padding:0;
+
+   
+
+   white-space:nowrap;
+
+   text-decoration: none;
+
+   vertical-align:middle;
+
+   background: #7F99A1;
+
+   color: black;
+
+   }
+
+.pod-play em {
+
+   _width:1em; _cursor:hand;
+
+   font-style: normal;
+
+   margin:0; padding: 0.1em 0.5em;
+
+   background: white;
+
+   color: #222;
+
+   }
+
+.pod-play span {
+
+   _width:1em; _cursor:hand;
+
+   margin:0; padding: 0.1em 0.5em 0.1em 0.3em;
+
+   }
+
+.pod-play:hover {
+
+   background: #666;
+
+   color: black;
+
+   }
+
+.pod-play:hover em {
+
+   background: black;
+
+   color: black
+
+   }
